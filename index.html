@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+  <body>
+    <form
+      action="https://formspree.io/f/xleadvnj"
+      method="POST"
+      id="form-group"
+    >
+      <h1 class="heading">Contact Form</h1>
+      <div>
+        <label class="form-label" for="name">Name</label>
+        <input
+          class="form-input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Full Name"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label class="form-label" for="contact">Contact</label>
+        <input
+          class="form-input"
+          type="tel"
+          name="contact"
+          id="contact"
+          placeholder="Contact"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label class="form-label" for="email">Email</label>
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+      </div>
+      <br />
+      <textarea
+        class="form-input"
+        name="message"
+        id="message"
+        placeholder="  Message"
+        cols="30"
+        rows="10"
+        required
+      ></textarea>
+      <button class="button" name="button" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
